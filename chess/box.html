@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document1</title>
+    <style>
+        .square{
+background-color: black;
+width:100px;
+height: 100px;
+margin: 10px;
+border-top:solid green;
+border-left:solid cyan;
+border-bottom:solid tomato;
+border-right:solid blue;
+border-width: 10px;
+        }
+        .rectangle{
+            background-color: rgb(128, 5, 5);
+width:200px;
+height: 100px;
+margin: 0px;
+border-top:solid green;
+border-left:solid cyan;
+border-bottom:solid tomato;
+border-right:solid blue;
+border-width: 10px;
+        }
+        .triangle{
+            width: 0px;
+            height: 0px;
+            border-top: 100px solid white;
+            border-bottom: 100px solid goldenrod;
+            border-left: 100px solid white;
+            border-right:100px solid white ;
+        }
+        .circle{
+            width: 100px;
+            height: 100px;
+            border-radius: 100%;
+            background-color: cadetblue;
+            margin: 0px;
+            float:right;
+        }
+        .RT{
+            width: 0px;
+            height: 0px;
+            border-top: 100px solid white;
+            border-bottom: 100px solid orange;
+            border-left: 100px solid orange;
+            border-right:100px solid white ;
+            float: right;
+        }
+        .oval{
+            width: 0px;
+            height:0px;
+            border-top: 50px solid orange;
+            border-bottom: 30px solid orange;
+            border-left: 300px solid orange;
+            border-right:00px solid orange;
+            border-radius:100%;
+        
+        }
+        
+        .box{
+            display: inline-flex;
+            margin: auto;
+        }
+        .pentagon {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+  position: relative;
+  transform: rotate(36deg);
+  margin: 10px;
+}
+.RR{
+    width:100px;
+    height:180px;
+    margin: 30px;
+    border-radius:50px;
+    background-color: lightseagreen;
+    transform:rotate(90deg);
+
+}
+.box2{
+            display:flex;
+            align:"center"
+        }
+        .pacman{
+            width: 0px;
+            height: 0px;
+            margin: 20px;
+            border: 100px solid;
+            border-radius: 100%;
+            border-color: orange transparent orange orange;
+        }
+        .semicricle{
+            width: 0px;
+            height: 0px;
+            margin: 20px;
+            border: 100px solid;
+            border-radius: 100%;
+            transform: rotate(45deg);
+            border-color: transparent red red transparent;
+        }
+        .traprzoid{
+            width: 100px;
+            height: 80px;
+            border: 150px solid;
+            border-color: transparent transparent rgb(218, 199, 32) transparent;   
+        }
+        .star{
+            width: 0px;
+            height:0px;
+            border: 150px solid;
+            border-color: transparent transparent rgb(218, 199, 32) transparent;
+        }
+
+
+    </style>
+
+</head>
+<body>
+ <div class="box">
+    <div class="square"></div>
+    
+    <div class="rectangle"></div>
+
+    <div class="triangle"></div>
+
+    <div class="circle"></div>
+
+    <div class="RT"></div>
+
+    <div class="oval"></div>
+ </div>
+ <br>
+<div class="box2">
+    <div class="pentagon"></div>
+
+    <div class="RR"></div>
+
+    <div class="pacman"></div>
+
+    <div class="semicricle"></div>
+
+    <div class="traprzoid"></div>
+
+    <div class="star"></div>
+</div>
+</body>
+</html>
